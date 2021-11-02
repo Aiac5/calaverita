@@ -11,15 +11,24 @@ class LaunchRequestHandler(AbstractRequestHandler):
         handler_input.response_builder.speak("Hola a todos, esta es la calaverita que queremos compartir con ustedes,"+
                                             'Estaba Romi muy emocionada,'+
                                             'por transformar el futuro de la educación,'+
-                                            'con el learning jub se sentia muy preparada,'+
-                                            'pero nunca imagino afrontarse con tal aberración,'+
-                                            'ante sus ojos una huesuda muy arreglada,'+
-                                            'llego por ella sin mas antelación,'+
+                                            'con el learning job se sentía muy preparada,'+
+                                            'pero nunca imaginó afrontarse con tal aberración,'+
+                                            'ante sus ojos una calaca muy arreglada,'+
+                                            'llego por ella sin más antelación,'+
                                             'ja, ja, ja,'+
-                                            'Any se encontraba en el chai comiendo,'+
-                                            'despues de un exhausto día de trabajo,'+
+                                            'Ani se encontraba en el chai comiendo,'+
+                                            'después de un exhausto día de trabajo,'+
                                             'cuando una extraña figura le estaba sonriendo,'+
-                                            'era la muerte que la esperaba sin atajo,').set_should_end_session(False)
+                                            'era la muerte que la esperaba sin atajo,'+
+                                            'no me gustan los cambios quiero seguir viviendo'+
+                                            'sus últimas palabras que se escucharon desde abajo,'+
+                                            'ja, ja, ja,'+
+                                            'Andrea y cesar un curso se encontraban impartiendo,'+
+                                            'Cuando comenzaron a escuchar un sonido muy tétrico,'+
+                                            'era la huesuda que por ellos venía corriendo,'+
+                                            'cesar grito y ahí quedó pues aquello era muy terrorífico,'+
+                                            'Andrea confundió a la muerte por lo que continuó sonriendo,'+
+                                            'a pesar de ser llevaba por algo tan maléfico,').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
