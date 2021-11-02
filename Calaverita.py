@@ -28,7 +28,10 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'era la huesuda que por ellos venía corriendo,'+
                                             'cesar grito y ahí quedó pues aquello era muy terrorífico,'+
                                             'Andrea confundió a la muerte por lo que continuó sonriendo,'+
-                                            'a pesar de ser llevaba por algo tan maléfico,').set_should_end_session(False)
+                                            'a pesar de ser llevaba por algo tan maléfico,'+
+                                            'ja, ja, ja,'+
+                                            'Chio y francisco se encontraban programando'+
+                                            '').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
