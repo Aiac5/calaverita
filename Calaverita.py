@@ -8,7 +8,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
         return is_request_type("LaunchRequest")(handler_input)
 
     def handle(self, handler_input):
-        handler_input.response_builder.speak("Welcome to the chinese animal game 2").set_should_end_session(False)
+        handler_input.response_builder.speak("Hola a todos, esta es la calaverita que quiero compartir con ustedes").set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
