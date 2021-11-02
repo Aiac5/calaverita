@@ -11,7 +11,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
         handler_input.response_builder.speak("Hola a todos, esta es la calaverita que queremos compartir con ustedes,"+
                                             'Estaba Romi muy emocionada,'+
                                             'por transformar el futuro de la educación,'+
-                                            'con el learning job se sentía muy preparada,'+
+                                            'con el learning hub se sentía muy preparada,'+
                                             'pero nunca imaginó afrontarse con tal aberración,'+
                                             'ante sus ojos una calaca muy arreglada,'+
                                             'llego por ella sin más antelación,'+
@@ -20,7 +20,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'después de un exhausto día de trabajo,'+
                                             'cuando una extraña figura le estaba sonriendo,'+
                                             'era la muerte que la esperaba sin atajo,'+
-                                            'no me gustan los cambios quiero seguir viviendo'+
+                                            'no me gustan los cambios quiero seguir viviendo,'+
                                             'sus últimas palabras que se escucharon desde abajo,'+
                                             'ja, ja, ja,'+
                                             'Andrea y cesar un curso se encontraban impartiendo,'+
@@ -30,8 +30,12 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'Andrea confundió a la muerte por lo que continuó sonriendo,'+
                                             'a pesar de ser llevaba por algo tan maléfico,'+
                                             'ja, ja, ja,'+
-                                            'Chio y francisco se encontraban programando'+
-                                            'f').set_should_end_session(False)
+                                            'Chio y francisco se encontraban programando,'+
+                                            'un reporte en data estudio para sicit que por fin terminaron,'+
+                                            'una voz macabrosa les susurro ¡ya se lo que están tramando!,'+
+                                            'francisco y chio se miraron en silencio sin imaginar donde acabarían,'+
+                                            'en una oficina godin de por vida se quedaron trabajando,'+
+                                            'ja,ja,ja').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
