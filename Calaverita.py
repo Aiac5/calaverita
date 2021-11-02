@@ -8,7 +8,14 @@ class LaunchRequestHandler(AbstractRequestHandler):
         return is_request_type("LaunchRequest")(handler_input)
 
     def handle(self, handler_input):
-        handler_input.response_builder.speak("Hola a todos, esta es la calaverita que quiero compartir con ustedes").set_should_end_session(False)
+        handler_input.response_builder.speak("Hola a todos, esta es la calaverita que queremos compartir con ustedes"+
+                                            'Estaba Romi muy emocionada,'+
+                                            'por transformar el futuro de la educación,'+
+                                            'con el learning hub se sentia muy preparada,'+
+                                            'pero nunca imagino afrontarse con tal aberración,'+
+                                            'ante sus una huesuda muy arreglada,'+
+                                            'llego por ella sin mas antelación'+
+                                            'ja, ja, ja').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
