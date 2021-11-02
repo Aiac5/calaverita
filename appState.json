@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Calaverita.py",
         "cursor": {
-          "lineNumber": 18,
-          "column": 57
+          "lineNumber": 21,
+          "column": 92
         },
         "config": {
           "runtime": "python3.9",
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1635817585734
+    "lastSave": 1635817693644
   },
   "VCS_STATE": {
     "provider": "GitHub",
