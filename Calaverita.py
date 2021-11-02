@@ -18,7 +18,8 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'ja, ja, ja,'+
                                             'Any se encontraba en el chai comiendo,'+
                                             'despues de un exhausto día de trabajo,'+
-                                            'cuando una extraña figura le estaba sonriendo,').set_should_end_session(False)
+                                            'cuando una extraña figura le estaba sonriendo,'+
+                                            'era la muerte que la esperaba sin atajo,').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):

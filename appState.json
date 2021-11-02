@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Calaverita.py",
         "cursor": {
-          "lineNumber": 21,
-          "column": 92
+          "lineNumber": 22,
+          "column": 87
         },
         "config": {
           "runtime": "python3.9",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1635817202838,
+        "lastUpdated": 1635817699797,
         "testCases": {
           "8a6446b5-a778-41a4-95f9-fab308331480": {
             "id": "8a6446b5-a778-41a4-95f9-fab308331480",
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1635817693644
+    "lastSave": 1635818041270
   },
   "VCS_STATE": {
     "provider": "GitHub",
