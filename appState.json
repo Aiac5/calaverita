@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0a26c955-f5db-4e10-88a9-0955a2bca59d": {
+        "id": "0a26c955-f5db-4e10-88a9-0955a2bca59d",
+        "parent": null,
+        "name": "Calaverita.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Calaverita.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 7
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "Calaverita"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK68e5b27fed74491fac2c8d6fc05e20bc",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1635812375401
+      },
+      "be0a3a8d-aed9-496e-97d8-77ea5439996e": {
+        "id": "be0a3a8d-aed9-496e-97d8-77ea5439996e",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "0a26c955-f5db-4e10-88a9-0955a2bca59d"
+    ],
+    "currentFileId": "0a26c955-f5db-4e10-88a9-0955a2bca59d",
+    "resources": {
+      "alexaSK68e5b27fed74491fac2c8d6fc05e20bc": {
+        "name": "alexaSK68e5b27fed74491fac2c8d6fc05e20bc",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.68e5b27f-ed74-491f-ac2c-8d6fc05e20bc",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "Calaverita",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1635812705165
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "calaverita",
+      "url": "https://github.com/Aiac5/calaverita"
+    }
+  }
+}
