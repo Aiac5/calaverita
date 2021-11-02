@@ -30,12 +30,13 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'Andrea confundió a la muerte por lo que continuó sonriendo,'+
                                             'a pesar de ser llevaba por algo tan maléfico,'+
                                             'ja, ja, ja,'+
-                                            'Chio y francisco se encontraban programando,'+
-                                            'un reporte en data estudio para sicit que por fin terminaron,'+
-                                            'una voz macabrosa les susurro ¡ya se lo que están tramando!,'+
-                                            'francisco y chio se miraron en silencio sin imaginar donde acabarían,'+
+                                            'Chío y francisco se encontraban programando,'+
+                                            'un reporte en data estudio para sicit que por fin terminarían,'+
+                                            'una voz macabrosa les susurro ya se lo que están tramando,'+
+                                            'chío y francisco se miraron en silencio sin imaginar donde acabarían,'+
                                             'en una oficina godin de por vida se quedaron trabajando,'+
-                                            'ja,ja,ja').set_should_end_session(False)
+                                            'ja,ja,ja,'+
+                                            'Muchas gracias por escucharnos, que tengan bonito día de muertos').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
