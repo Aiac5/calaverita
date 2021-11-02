@@ -28,7 +28,16 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1635812375401
+        "lastUpdated": 1635817202838,
+        "testCases": {
+          "8a6446b5-a778-41a4-95f9-fab308331480": {
+            "id": "8a6446b5-a778-41a4-95f9-fab308331480",
+            "name": "Test event",
+            "functionId": "0a26c955-f5db-4e10-88a9-0955a2bca59d",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       },
       "be0a3a8d-aed9-496e-97d8-77ea5439996e": {
         "id": "be0a3a8d-aed9-496e-97d8-77ea5439996e",
@@ -60,7 +69,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -93,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1635816864330
+    "lastSave": 1635817585734
   },
   "VCS_STATE": {
     "provider": "GitHub",
