@@ -31,7 +31,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
                                             'a pesar de ser llevaba por algo tan maléfico,'+
                                             'ja, ja, ja,'+
                                             'Chio y francisco se encontraban programando'+
-                                            '').set_should_end_session(False)
+                                            'f').set_should_end_session(False)
         return handler_input.response_builder.response    
 
 class CatchAllExceptionHandler(AbstractExceptionHandler):
